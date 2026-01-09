@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Atkinson Hyperlegible Mono',sans-serif;
+    background-color: bisque;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 30%;
+    
+}
+
+#blog-list{
+    padding: 40px 5px 0 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline red;
+    margin: 0;
+    font-size: 2rem;
+    color: red;
+}
+
+h3{
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+p{
+    margin: 1em 0;
+}
